@@ -1,0 +1,17 @@
+<h1>Send Transaction!</h1>
+<form action="/transaction" method="POST">
+  ID: <input type="text" name="id" value="TR33201931283" />
+  <br />
+  PID: <input type="text" name="pid" value="A123456789" />
+  <br />
+  Type:
+  <select name="type">
+    <option value="1">health insurance provided</option>
+    <option value="2">self-provided</option>
+  </select>
+  <br />
+  Birthday:
+  <input type="date" name="birthday" value="2000-07-22" min="1990-01-01" max="2018-12-31" />
+  <br />
+  <input type="submit" value="Send" />
+</form>
